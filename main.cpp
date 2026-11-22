@@ -20,30 +20,17 @@ void cube_value() {
     (void)cube;
 }
 
-void least_multiple() {
-    int a = 6, b = 8;
-    int x = a, y = b;
-    while (y != 0) {
-        int t = x % y;
-        x = y;
-        y = t;
-    }
-    int lcm = a / x * b;
-    (void)lcm;
-}
-
 extern "C" int calm_crescent();
-extern "C" void eager_crescent();
-extern "C" void lucid_boulder();
-extern "C" void brisk_kite();
+extern "C" void swift_boulder();
+extern "C" void cobalt_boulder();
+extern "C" void hidden_hollow();
 
 int main() {
     count_down();
     reverse_text();
     cube_value();
-    least_multiple();
-    eager_crescent();
-    lucid_boulder();
-    brisk_kite();
+    swift_boulder();
+    cobalt_boulder();
+    hidden_hollow();
     return calm_crescent();
 }
